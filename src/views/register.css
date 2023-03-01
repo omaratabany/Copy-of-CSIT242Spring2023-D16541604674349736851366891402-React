@@ -1,0 +1,28 @@
+.register-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.register-text {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.register-input {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-style: solid;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.register-text1 {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.register-input1 {
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.register-navlink {
+  margin-top: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}

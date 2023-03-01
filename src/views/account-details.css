@@ -1,0 +1,53 @@
+.account-details-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.account-details-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.account-details-container2 {
+  width: 404px;
+  height: 159px;
+  display: flex;
+  align-items: center;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.account-details-ul1 {
+  position: relative;
+  padding-left: 400px;
+}
+@media(max-width: 479px) {
+  .account-details-container1 {
+    height: auto;
+    position: relative;
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .account-details-container2 {
+    width: auto;
+    height: auto;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+  .account-details-ul {
+    align-self: center;
+    padding-left: 0px;
+  }
+  .account-details-li {
+    text-align: center;
+  }
+}
